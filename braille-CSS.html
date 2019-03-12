@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Braille</title>
+	<link rel="stylesheet" type="text/css" href="braille.css" />
+
+</head>
+
+<body>
+
+	<h1 id="head">Braille</h1>
+	<div id="logoplace"></div>
+	<div class="samplediv">
+		<div class="navbar">
+			<ul>
+				<li><a href="#Intro">Introduction</a></li>
+				<li><a href="#History">History</a></li>
+				<li><a href="#System">System</a></li>
+				<li><a href="#Braille">English Braille</a>
+					<ul>
+						<li><a href="#Let">English Braille: Letters</a></li>
+						<li><a href="#Num">English Braille: Numbers</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="fakeHR"></div>
+	<div id="shift">
+		<div class="int">
+			<h2> <a id="Intro"></a>Introduction</h2>
+
+			<p>Braille is a tactile reading and writing system used by blind and
+				visually impaired people who cannot access print materials. It uses
+				raised dots to represent the letters of the print alphabet. It also
+				includes symbols to represent punctuation, mathematics and scientific
+				characters, music, computer notation and foreign languages.</p>
+			<hr />
+		</div>
+		<div class="hist">
+			<h2><a id="History"></a>History</h2>
+			<div id="emptydiv"></div>
+			<p>Braille was based on a tactile military code called <span id="night">night writing</span>,
+				developed by Charles Barbier in response to Napoleon's demand for a
+				means for soldiers to communicate silently at night and without a light
+				source. In Barbier's system, sets of 12 embossed dots encoded 36
+				different sounds. It proved to be too difficult for soldiers to
+				recognize by touch and was rejected by the military.
+
+				In 1821 Barbier visited the Royal Institute for the Blind in Paris,
+				where he met Louis Braille. Braille identified two major defects of the
+				code: first, by representing only sounds, the code was unable to render
+				the orthography of the words; second, the human finger could not
+				encompass the whole 12-dot symbol without moving, and so could not move
+				rapidly from one symbol to another. Braille's solution was to use 6-dot
+				cells and to assign a specific pattern to each letter of the alphabet.
+				At first, Braille was a one-to-one transliteration of French
+				orthography, but soon various abbreviations, contractions, and even
+				logograms were developed, creating a system much more like shorthand.
+				The expanded English system, called Grade-2 Braille, was complete by
+				1905. For blind readers, Braille is an independent writing system,
+				rather than a code of printed orthography.
+			</p>
+
+			<div id="video">
+				<object type='application/x-shockwave-flash' style='width:420px; height:240px;'
+					data='https://www.youtube.com/v/cyfxQ6sdaIE?hl=en_GB'>
+					<param name='movie' value='https://www.youtube.com/v/cyfxQ6sdaIE?hl=en_GB' />
+				</object>
+				<p>How Braille was invented. <br />by TEDEd</p>
+			</div>
+		</div>
+		<hr />
+		<div id="sys">
+			<div id="empty"></div>
+			<h2><a id="System"></a>System</h2>
+			<div class="flex-container">
+				<div id="mine">
+					<p>In Braille's original system, the dot patterns were assigned to letters
+						according to their position within the alphabetic order of the French
+						alphabet. The first ten letters of the alphabet (the first decade), a-j,
+						use the upper four dot positions (black dots in the table). The next ten
+						letters (the second decade), k-t, are identical to a-j, respectively,
+						apart from the addition of a dot at position 3 (red dots in the table).
+						The letters of the next decade are the same again, but with dots also at
+						positions both 3 and 6 (green dots). Here w was left out as not being a
+						part of the official French alphabet at the time of Braille's life. The
+						third decade includes u v x y z, followed by five French accented
+						letters. The letters of the fourth decade are the same again, except
+						that for this series position 6 (purple dot) is used without position 3.
+						The first nine letters of this decade are accented letters, followed by
+						w in the tenth cell. The a-j series lowered by one dot space (fifth
+						decade) are used for punctuation. In addition, there are ten patterns
+						that are based on the first two letters shifted to the right; these were
+						assigned to non-French letters, or serve non-letter functions.<br /><br />Various formatting
+						marks
+						affect the
+						values of the letters that follow
+						them. The braille for 'Capital' followed by the letter 'a' is read 'A'.
+						The braille for 'Number' followed by letters in the first decade stands
+						for the digits 1-9 and 0.
+					</p>
+				</div>
+				<div>
+					<div id="wholeBox">
+						<div id="topBox">
+							<div id="topBox-Pic">
+								<img src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Braillesystem.png"
+									alt="" />
+							</div>
+							<div id="topBox-Text">
+								<p>The structure of the Braille system <br /> from <a
+										href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> </p>
+							</div>
+						</div>
+						<div id ="middleL"></div>
+						<div id="bottomBox">
+							<p>
+								<div class="bottomBox-textH">Punctuation:</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Comma.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Comma</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Semicolon.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Semicolon</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Apostrophe.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Apostrophe</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Colon.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Colon</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Hyphen.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Hyphen</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Decimal.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Decimal point</div><br />
+								<div class="bottomBox-pic"><br /><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Fullstop.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Full stop</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Exclamation.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Exclamation point</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Questionmark.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Open quote, question mark</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Closequote.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Close quote</div><br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Bracket.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Bracket</div>
+								<br /><br />
+								<div class="bottomBox-pic"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Slash.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text">Slash</div><br /><br />
+								<div class="bottomBox-textH">Formatting marks:</div><br /><br />
+								<div class="bottomBox-text2">Capital</div><br />
+								<div class="bottomBox-pic2"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Capital.png"
+										alt=""><br /><br /></div>
+								<div class="bottomBox-text2">Number</div><br />
+								<div class="bottomBox-pic2"><img
+										src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/system/Number.png"
+										alt=""><br /><br /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shiftD">
+			<hr />
+			<div id="engBra">
+				<div id="flick-here"></div>
+				<h2><a id="Braille"></a>English Braille</h2>
+				<div id="flick">
+					<a href="http://www.flickriver.com/photos/tags/Braille/interesting/"><img
+							src="http://www.flickriver.com/badge/global/tag/interesting/shuffle/medium-4x3/ffffff/333333/Braille.jpg"
+							alt="View most interesting 'Braille' photos on Flickriver"
+							title="View most interesting 'Braille' photos on Flickriver" /></a><br /><br />
+				</div>
+				<p><a href="https://en.wikipedia.org/wiki/English_Braille"> English Braille</a> is the braille
+					alphabet used for
+					English. It consists
+					of 250 or so letters (phonograms), numerals, punctuation, formatting
+					marks, contractions, and abbreviations (logograms). Some English Braille
+					letters correspond to more than one letter in print. <br /><br />
+					There are three levels of complexity in English Braille:</p>
+				<ul id="grades">
+					<li><span class="gra">Grade 1</span> is a nearly one-to-one transcription of printed English and is
+						restricted to basic literacy. </li>
+					<li><span class="gra">Grade 2</span> abandons one-to-one transcription in many places and adds
+						hundreds of abbreviations and contractions. Both grades have been
+						standardized. </li>
+					<li><span class="gra">Grade 3</span> is any of various personal shorthands. It is almost never found
+						in publications. </li>
+				</ul>
+				<p>Braille was originally intended, and is frequently portrayed, as a
+					re-encoding of the English orthography used by sighted people. However,
+					braille is an independent writing system, not a variant of the printed
+					English alphabet.</p>
+				<hr />
+			</div>
+			<div id="engbraLet">
+				<h2><a id="Let"></a>English Braille: <span class="red1">Letters</span></h2>
+				<p>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/a.png" alt=""
+								title="a"></div>
+						<br />
+						<div class="desc">
+							a - alfa</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/b.png" alt=""
+								title="b"></div>
+						<br />
+						<div class="desc">
+							b - bravo</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/c.png" alt=""
+								title="c"></div>
+						<br />
+						<div class="desc">c -
+							charlie</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/d.png" alt=""
+								title="d"></div>
+						<br />
+						<div class="desc">d -
+							delta</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/e.png" alt=""
+								title="e"></div>
+						<br />
+						<div class="desc">e -
+							echo</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/f.png" alt=""
+								title="f"></div>
+						<br />
+						<div class="desc">f -
+							foxtrot</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/g.png" alt=""
+								title="g"></div>
+						<br />
+						<div class="desc">g -
+							golf</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/h.png" alt=""
+								title="h"></div>
+						<br />
+						<div class="desc">h -
+							hotel</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/i.png" alt=""
+								title="i"></div>
+						<br />
+						<div class="desc">i -
+							india</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/j.png" alt=""
+								title="j"></div>
+						<br />
+						<div class="desc">j -
+							juliet</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/k.png" alt=""
+								title="k"></div>
+						<br />
+						<div class="desc">k -
+							kilo</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/l.png" alt=""
+								title="l"></div>
+						<br />
+						<div class="desc">l -
+							lima</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/m.png" alt=""
+								title="m"></div>
+						<br />
+						<div class="desc">m -
+							mike</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/n.png" alt=""
+								title="n"></div>
+						<br />
+						<div class="desc">n -
+							november</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/o.png" alt=""
+								title="o"></div>
+						<br />
+						<div class="desc">o -
+							oscar</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/p.png" alt=""
+								title="p"></div>
+						<br />
+						<div class="desc">p -
+							papa</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/q.png" alt=""
+								title="q"></div>
+						<br />
+						<div class="desc">q -
+							quebec</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/r.png" alt=""
+								title="r"></div>
+						<br />
+						<div class="desc">r -
+							romeo</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/s.png" alt=""
+								title="s"></div>
+						<br />
+						<div class="desc">s -
+							sierra</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/t.png" alt=""
+								title="t"></div>
+						<br />
+						<div class="desc">t -
+							tango</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/u.png" alt=""
+								title="u"></div>
+						<br />
+						<div class="desc">u -
+							uniform</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/v.png" alt=""
+								title="v"></div>
+						<br />
+						<div class="desc">v -
+							victor</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/w.png" alt=""
+								title="w"></div>
+						<br />
+						<div class="desc">w -
+							whisky</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/x.png" alt=""
+								title="x"></div>
+						<br />
+						<div class="desc">x -
+							xray</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/y.png" alt=""
+								title="y"></div>
+						<br />
+						<div class="desc">y -
+							yankee</div><br />
+					</div>
+					<div class="az">
+						<div class="gallery"><img
+								src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/letters/z.png" alt=""
+								title="z"></div>
+						<br />
+						<div class="desc">z -
+							zulu</div><br />
+					</div>
+
+			</div>
+			<div id="fakeHR2"></div>
+			<h2><a id="Num"></a>English Braille: <span class="red1"> Numbers </span></h2>
+			<p>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/0.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">0 - Zero</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/1.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">1 - One</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/2.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">2 - Two</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/3.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">3 - Three</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/4.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">4 - Four</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/5.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">5 - Five</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/6.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">6 - Six</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/7.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">7 - Seven</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/8.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">8 - Eight</div>
+					<br /><br />
+				</div>
+				<div class="nums">
+					<div class="img-num"><img
+							src="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/numbers/9.png" alt="">
+					</div>
+					<br />
+					<div class="num-desc">9 - Nine</div>
+					<br /><br />
+				</div>
+				<hr />
+				<div id="footer">
+				<p>Information from <a href="https://www.royalblind.org/">Royal Blind</a>
+					and <a href="https://en.wikipedia.org/wiki/Main_Page"> Wikipedia</a>.</p>
+				</div>
+		</div>
+	</div>
+</body>
+
+</html>

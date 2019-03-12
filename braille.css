@@ -1,0 +1,380 @@
+body{
+  min-width:510px;
+  max-width:960px;
+  margin-left: auto;
+  margin-right: auto;
+ background-color:white;
+}
+/* sets body min and max height and margins */
+html{
+  background-color:#A9A9A9;
+}
+/* sets the outside body color to grey */
+
+#logoplace{
+  height: 85px;
+  width:175px;
+  background-image: url(https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/css/braille.png);
+  position: absolute;
+  right:300px;
+  top: 42px;
+  background-repeat: no-repeat;
+}
+/* positions the logo in place */
+
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+    color:  rgb(44, 56, 168);
+}
+/* sets the font and color for headings */
+p{
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia","serif";
+}
+/* font style for paragraphs */
+#head{
+  position: relative;
+  top: 25px;
+}
+/* positions the title */
+hr{
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-bottom-color:  #004c87;
+}
+/* sets the breaks color and size */
+.hist{
+  position: relative;
+}
+
+#video{
+  background-image: url(https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/css/460x320-box.png);
+  height:320px;
+  width: 460px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+/* video position and attributes */
+#emptydiv{
+  float:right;
+  height: 320px;
+  width: 460px;
+}
+/* video placed on top of empty div */
+#video>object{
+  margin: 20px;
+}
+/* margin */
+#video>p{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+/* text describing the video */
+
+.navbar{
+  width: 63.4%;
+  max-width:960px;
+  background:#004c87;
+  position: absolute;
+  top: 0;
+}
+/* sets the width and positioning of the navigation bar */
+.navbar ul{
+  text-align:right;
+  display:inline;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+/* list attributes for navbar */
+.navbar ul li{
+display:inline-block;
+position:relative;
+padding:10px 5px;
+background: #004c87;
+left: 61.5%;
+}
+/* list elements */
+
+.navbar ul li a{
+  padding: 10px 5px;
+  color:#fafbfd;
+}
+/* anchor tag attributes */
+
+.navbar ul li:hover{
+  background: #097bae;
+  color:white;
+}
+/* once the mouse hovers over the nav bar */
+
+.navbar ul li ul{
+  padding: 0;
+  position: absolute;
+  width:250px;
+  display:none;
+  visibility: hidden;
+}
+/* sub list */
+.navbar ul li ul li{
+  background: #097BAE;
+  display:block;
+  position: relative;
+  top: 5px;
+  left:-120px; 
+}
+/* sub list elements */
+.navbar a{
+  text-decoration: none;
+}
+/* ensures no underline of links */
+
+.navbar ul li ul li:hover{
+  background:#4dd0e1;
+  color:white;
+}
+/* underlining of sub links */
+.navbar ul li:hover ul{
+  display:block;
+  visibility: visible;
+}
+
+  .red1 {
+      color: red;
+
+  }
+  /* highlights spans red */
+
+  .gra{
+    font-weight: bold;
+  }
+  /* makes grades bold */
+  
+  div.gallery {
+    margin: 10px;
+    border: 2px solid #ccc;
+    width: 95px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  /* image properties */
+  div.gallery img {
+    width: 100%; 
+    height: auto; 
+  }
+  /* resizing */
+  div.desc {
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    width:97px;
+    height:28px;
+    bottom:66px;
+    left: 10px;
+    background: #004c87;
+    color: white;
+    font-variant: small-caps;
+  }
+  /* image descriptions */
+  div.az{
+    display: inline-block;
+  }
+  /* entire image and description together */
+  div.img-num {
+    margin: 10px;
+    border: 2px solid #ccc;
+    width: 140px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  /* number images */
+  div.img-num img {
+    width: 100%; 
+    height: auto; 
+  }
+  /* number images resizing */
+  div.num-desc {
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    width:142px;
+    height:28px;
+    bottom:60px;
+    left: 10px;
+    background: #004c87;
+    color: white;
+    font-variant: small-caps;
+  }
+  /* number descriptions */
+  div.nums{
+    display: inline-block;
+  }
+  /* num +description boxes as one element */
+  #flick{
+    background-image: url(https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/braille/css/420x370-box.png);
+    height: 370px;
+    width: 420px;
+    position: absolute;
+    right: 0px;
+    top:45px;
+  }
+  /* positioning flick river image */
+  #engBra{
+    position: relative;
+  }
+  #flick-here{
+    height: 420px;
+    width: 420px;
+    float:right;
+  }
+  /* empty div assigned to flick river */
+  #flick img{
+    margin: 10px;
+  }
+  /* margin to align */
+  #engBra hr{
+    position: relative;
+    top: 40px;
+  }
+  /* repositioning hr element */
+  #engbraLet{
+    position: relative;
+    top: 28px;
+  }
+  /* reposition */
+  #shift{
+    position: relative;
+    top:50px;
+  }
+  /* shift everything down to make room for badge */
+  #fakeHR{
+    width:100%;
+    height:10px;
+    background-color: #004c87;
+    position: relative;
+    top:50px;
+  }
+  /* HR without adding any html */
+  #fakeHR2{
+    width:100%;
+    height:10px;
+    background-color: #004c87;
+  }
+  /* second fake hr */
+
+  #wholeBox{
+    border: 5px double;
+    border-color: #004c87;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  /* entire box of images + system*/
+  #topBox-Pic{
+    margin:10px;
+    width:450px;
+    position: relative;
+    left:5px;
+  }
+/* the large top box picture */
+  #topBox-Pic img{
+    width: 100%;
+    height: auto;
+  }
+  /* resizing the image to fit in the box */
+ #sys{
+   position: relative;
+   padding: 5px;
+ }
+ /* repositiong system */
+
+ #bottomBox br{
+  display:none;
+ }
+ /* reduce spacing */
+ .bottomBox-text{
+   position: relative;
+   left:50px;
+   bottom:20px;
+ }
+ /* reposition the text */
+ 
+ 
+.flex-container{
+  display:flex;
+  flex-direction:row-reverse;
+  align-self:flex-start;
+}
+/* for the top box */
+
+#topBox-Text{
+  text-align: center;
+}
+/* top box text position */
+
+.bottomBox-textH{
+  position: relative;
+  font-variant: small-caps;
+  left:20px;
+  bottom:10px;
+}
+/* headings position */
+.bottomBox-text2{
+  position: relative;
+  left:50px;
+   top:30px;
+}
+/* bottom 2 text attributes */
+.bottomBox-pic2{
+  position: relative;
+  bottom:20px ;
+}
+/* bottom 2 pictures */
+
+#mine p{
+  margin-left:14px;
+}
+/* repositioning the text next to top box */
+
+#footer{
+  background-color: white;
+  text-align: right;
+  position: relative;
+  bottom:10px;
+  height:40px;
+  width:100%;
+}
+/* footer links with box */
+#night{
+  font-style: italic;
+}
+/* styling span text */
+
+#middleL{
+  border-top: 2px  #004c87;
+  border-top-style: solid;
+  width: 96%;
+  position: relative;
+  left:8px;
+}
+
+
+
+  
+
+
+
+
+ 
+
+  
+
+ 
+
+
+
+
+
+  
+
+
